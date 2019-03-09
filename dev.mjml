@@ -17,13 +17,28 @@
     </mj-attributes>
   </mj-head>
 
-  <mj-body background-color="#ffffff">
+  <mj-body background-color="black">
 
-    <mj-section>
+    <mj-raw>
+      <!-- logo -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="20px 0px 10px 0px">
       <mj-column>
-        <mj-text align="center" font-family="montserrat" font-size="33px" padding="20px" mj-class="crimson">Hello World!!!</mj-text>
+          <mj-image src="https://i.postimg.cc/KcTwQ211/logo.jpg" alt="logo" width="250px" align="left" href="https://www.pizzahut.com/"/>
       </mj-column>
     </mj-section>
+
+    <mj-raw>
+      <!-- hero -->
+    </mj-raw>
+
+    <mj-section background-color="black">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/kGPjL22B/hero.jpg" alt="two large pizzas and one hershey cookie" href="https://www.pizzahut.com/"/>
+      </mj-column>
+    </mj-section>
+
 
   </mj-body>
 
