@@ -39,6 +39,48 @@
       </mj-column>
     </mj-section>
 
+    <mj-raw>
+      <!-- order now button -->
+    </mj-raw>
+
+    <mj-section background-color="black">
+      <mj-column>
+         <mj-image src="https://i.postimg.cc/2SDbnbk6/order-btn.png" alt="order online now" href="https://www.pizzahut.com/"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- information about deal -->
+    </mj-raw>
+
+    <mj-section background-color="black">
+      <mj-column>
+        <mj-text color="#979797" font-family="montserrat" font-size="12px" line-height="18px" align="center" padding="10px 20px 10px 20px">
+          <p>THIS ONLINE-ONLY OFFER EXPIRES 05/03/2019. OFFER NOT VALID IF COPIED, REPRODUCED, SOLD OR OTHERWISE TRANSFERRED. LIMIT ONE OFFER PER PARTY AT PARTICIPATING LOCATIONS. Cannot be combined with other offers.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- background map, pointer icon, valid store -->
+    </mj-raw>
+
+    <mj-section background-color="black" background-url="https://i.postimg.cc/GmgXd7B0/map.jpg" background-size="cover" background-repeat="no-repeat" padding="20px 0px 20px 0px">
+
+      <mj-column width="20%" vertical-align="middle">
+        <mj-image src="https://i.postimg.cc/gJDg8X6b/pointer-2.png" width="83px"/>
+      </mj-column>
+
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text color="#909090" font-family="montserrat" font-weight="600" align="center">
+          <p style="font-size:17px;">VALID AT YOUR STORE:</p>
+          <p style="font-size:14px;">7650 I-35 E #100</p>
+          <p style="font-size:14px;">Corinth, TX 76210</p>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
 
   </mj-body>
 
