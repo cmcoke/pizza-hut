@@ -15,6 +15,28 @@
     <mj-attributes>
       <mj-all padding="0" />
     </mj-attributes>
+
+    <mj-style>
+      @media (max-width:480px){
+
+        .showMobileMenu td{
+          display:block;
+        }
+
+        .hideDesktopMenu td{
+          display:none;
+        }
+      }
+
+      @media (min-width:481px){
+
+        .hideMobileMenu td{
+          display:none;
+        }
+
+      }
+
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="black">
@@ -81,6 +103,75 @@
 
     </mj-section>
 
+    <mj-raw>
+      <!-- pizzahut.com banner -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="25px 0px 30px 0px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/s2S7qw74/banner.jpg" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- menu (mobile version) -->
+    </mj-raw>
+
+    <mj-section background-color="black" css-class="showMobileMenu hideMobileMenu">
+
+      <mj-group>
+        <mj-column width="50%" padding="0px 0px 10px 0px">
+          <mj-image src="https://i.postimg.cc/HnwdMXLt/pizza-mobile.jpg" href="https://www.pizzahut.com/" fluid-on-mobile="true"/>
+        </mj-column>
+        <mj-column width="50%" padding="0px 0px 10px 0px">
+          <mj-image src="https://i.postimg.cc/KjSm4Jmz/pasta-mobile.jpg" href="https://www.pizzahut.com/" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-group>
+
+      <mj-group>
+        <mj-column width="50%">
+          <mj-image src="https://i.postimg.cc/Y9mppJKZ/wings-mobile.jpg" href="https://www.pizzahut.com/" fluid-on-mobile="true"/>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image src="https://i.postimg.cc/hGYDRKwV/deals-mobile.jpg" href="https://www.pizzahut.com/" fluid-on-mobile="true"/>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- menu (desktop version) -->
+    </mj-raw>
+
+    <mj-section background-color="black" css-class="hideDesktopMenu">
+      <mj-column padding="0px 10px 0px 10px">
+        <mj-image src="https://i.postimg.cc/N02hTmJr/pizza-desktop.jpg" href="https://www.pizzahut.com/"/>
+      </mj-column>
+      <mj-column padding="0px 10px 0px 10px">
+        <mj-image src="https://i.postimg.cc/y8b4kvPH/pasta-desktop.jpg" href="https://www.pizzahut.com/"/>
+      </mj-column>
+      <mj-column padding="0px 10px 0px 10px">
+        <mj-image src="https://i.postimg.cc/MGCCYHN3/wings-desktop.jpg" href="https://www.pizzahut.com/"/>
+      </mj-column>
+      <mj-column padding="0px 10px 0px 10px">
+        <mj-image src="https://i.postimg.cc/kg4PJkWs/deals-desktop.jpg" href="https://www.pizzahut.com/"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- social media -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="20px 11px 0px 11px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="45px" mode="horizontal" align="center">
+          <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/44trGj3C/facebook-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/CxMtj1sY/twitter-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/DyTRw5WS/instagram-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/jd4mwNNZ/youtube-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
 
   </mj-body>
 
