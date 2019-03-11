@@ -16,27 +16,35 @@
       <mj-all padding="0" />
     </mj-attributes>
 
+    <mj-style inline="inline">
+      .show_on_mobile table, .show_on_mobile-outlook table{
+        display:none;
+        mso-hide:all;
+        max-height: 0;
+        overflow: hidden;
+      }
+      .img{
+        display:block !important;
+      }
+    </mj-style>
+
     <mj-style>
-      @media (max-width:480px){
-
-        .showMobileMenu td{
-          display:block;
+      @media only screen and (max-width:480px) {
+        .show_on_desktop {
+          display:none !important;
         }
-
-        .hideDesktopMenu td{
-          display:none;
+        .show_on_mobile table, .show_on_mobile-outlook table {
+          display:block!important;
+          max-height: 200px!important;
+          overflow: visible!important;
         }
       }
+    </mj-style>
 
-      @media (min-width:481px){
-
-        .hideMobileMenu td{
-          display:none;
-        }
-
-      }
+    <mj-style>
 
     </mj-style>
+
   </mj-head>
 
   <mj-body background-color="black">
@@ -87,7 +95,7 @@
       <!-- background map, pointer icon, valid store -->
     </mj-raw>
 
-    <mj-section background-color="black" background-url="https://i.postimg.cc/GmgXd7B0/map.jpg" background-size="cover" background-repeat="no-repeat" padding="20px 0px 20px 0px">
+    <mj-section background-color="black" padding="20px 0px 20px 0px" background-url="https://i.postimg.cc/GmgXd7B0/map.jpg" background-repeat="no-repeat" background-size="670px">
 
       <mj-column width="20%" vertical-align="middle">
         <mj-image src="https://i.postimg.cc/gJDg8X6b/pointer-2.png" width="83px"/>
@@ -107,9 +115,9 @@
       <!-- pizzahut.com banner -->
     </mj-raw>
 
-    <mj-section background-color="black" padding="25px 0px 30px 0px">
+    <mj-section background-color="black" padding="25px 0px 30px 0px" >
       <mj-column>
-        <mj-image src="https://i.postimg.cc/s2S7qw74/banner.jpg" />
+        <mj-image src="https://i.postimg.cc/s2S7qw74/banner.jpg" height="25px"/>
       </mj-column>
     </mj-section>
 
@@ -117,7 +125,7 @@
       <!-- menu (mobile version) -->
     </mj-raw>
 
-    <mj-section background-color="black" css-class="showMobileMenu hideMobileMenu">
+    <mj-section background-color="black" css-class="show_on_mobile">
 
       <mj-group>
         <mj-column width="50%" padding="0px 0px 10px 0px">
@@ -143,7 +151,7 @@
       <!-- menu (desktop version) -->
     </mj-raw>
 
-    <mj-section background-color="black" css-class="hideDesktopMenu">
+    <mj-section background-color="black" css-class="show_on_desktop">
       <mj-column padding="0px 10px 0px 10px">
         <mj-image src="https://i.postimg.cc/N02hTmJr/pizza-desktop.jpg" href="https://www.pizzahut.com/"/>
       </mj-column>
@@ -170,6 +178,60 @@
           <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/DyTRw5WS/instagram-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
           <mj-social-element href="https://www.pizzahut.com/" src="https://i.postimg.cc/jd4mwNNZ/youtube-desktop.jpg" padding="0px 12px 0 12px"></mj-social-element>
         </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- subscriber information -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="70px 0px 0px 0px">
+
+        <mj-column padding="0px 20px 30px 20px">
+          <mj-text font-family="montserrat" font-size="12px" font-weight="600" text-decoration="underline" align="center" line-height="18px">
+            <a href="https://www.pizzahut.com/" style="color:#909090">Update my profile</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding="0px 20px 30px 20px">
+          <mj-text font-family="montserrat" font-size="12px" font-weight="600" text-decoration="underline" align="center" line-height="18px">
+            <a href="https://www.pizzahut.com/" style="color:#909090">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding="0px 20px 30px 20px">
+          <mj-text font-family="montserrat" font-size="12px" font-weight="600" text-decoration="underline" align="center" line-height="18px">
+            <a href="https://www.pizzahut.com/" style="color:#909090">Privacy policy</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding="0px 20px 30px 20px">
+          <mj-text font-family="montserrat" font-size="12px" font-weight="600" text-decoration="underline" align="center" line-height="18px">
+            <a href="https://www.pizzahut.com/" style="color:#909090">Contact us</a>
+          </mj-text>
+        </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="0px 20px 0px 20px">
+      <mj-column>
+        <mj-text font-family="montserrat" font-size="13px" line-height="19px">
+           <p style="color:#909090" >To Whom It May Concern, this email is a personal project of mine and not that of Pizza Hut. The project' assests and inspiration are from <a href="https://www.pizzahut.com/" style="color:#EE3A43"> Pizza Hut's Hut Lovers Email</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- bottom logo -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="10px 0px 0px 0px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/T1hwM3Bv/bottom-logo.png" href="https://www.pizzahut.com/"/>
       </mj-column>
     </mj-section>
 
