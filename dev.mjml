@@ -65,7 +65,7 @@
 
     <mj-section background-color="black">
       <mj-column>
-        <mj-image src="https://i.postimg.cc/kGPjL22B/hero.jpg" alt="two large pizzas and one hershey cookie" href="https://www.pizzahut.com/"/>
+        <mj-image src="https://i.postimg.cc/50mkBhkT/hero.png" alt="two large pizzas and one hershey cookie" href="https://www.pizzahut.com/"/>
       </mj-column>
     </mj-section>
 
@@ -92,21 +92,13 @@
     </mj-section>
 
     <mj-raw>
-      <!-- background map, pointer icon, valid store -->
+      <!-- store location -->
     </mj-raw>
 
-    <mj-section background-color="black" padding="20px 0px 20px 0px" background-url="https://i.postimg.cc/GmgXd7B0/map.jpg" background-repeat="no-repeat" background-size="670px">
+    <mj-section background-color="black" padding="20px 0px 20px 0px">
 
-      <mj-column width="20%" vertical-align="middle">
-        <mj-image src="https://i.postimg.cc/gJDg8X6b/pointer-2.png" width="83px"/>
-      </mj-column>
-
-      <mj-column width="35%" vertical-align="middle">
-        <mj-text color="#909090" font-family="montserrat" font-weight="600" align="center">
-          <p style="font-size:17px;">VALID AT YOUR STORE:</p>
-          <p style="font-size:14px;">7650 I-35 E #100</p>
-          <p style="font-size:14px;">Corinth, TX 76210</p>
-        </mj-text>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/RhSZSJY8/store.png"/>
       </mj-column>
 
     </mj-section>
