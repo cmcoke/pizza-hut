@@ -206,26 +206,28 @@
     </mj-section>
 
     <mj-raw>
+      <!-- bottom logo -->
+    </mj-raw>
+
+    <mj-section background-color="black" padding="10px 0px 10px 0px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/T1wpSp8k/logo.png" href="https://www.pizzahut.com/" width="50px"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
       <!-- footer -->
     </mj-raw>
 
     <mj-section background-color="black" padding="0px 20px 0px 20px">
       <mj-column>
-        <mj-text font-family="montserrat, sans-serif" font-size="13px" line-height="19px">
-           <p style="color:#909090" >To Whom It May Concern, this email is a personal project of mine and not that of Pizza Hut. The project' assests and inspiration are from <a href="https://www.pizzahut.com/" style="color:#EE3A43"> Pizza Hut's Hut Lovers Email</a></p>
+        <mj-text font-family="montserrat, sans-serif" font-size="13px" line-height="19px" align="center">
+           <p style="color:#909090" >Please note that this email is a personal project of mine and not that of Pizza Hut.</p>
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-raw>
-      <!-- bottom logo -->
-    </mj-raw>
 
-    <mj-section background-color="black" padding="10px 0px 0px 0px">
-      <mj-column>
-        <mj-image src="https://i.postimg.cc/T1hwM3Bv/bottom-logo.png" href="https://www.pizzahut.com/"/>
-      </mj-column>
-    </mj-section>
 
   </mj-body>
 
